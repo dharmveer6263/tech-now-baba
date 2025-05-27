@@ -1,0 +1,126 @@
+.mahi_user_css {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.mahi_user_css img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+  object-fit: fill;
+  margin-top: 0.3rem;
+}
+
+.mahi_user_css h1 {
+  font-size: 0.35rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.mahi_user_css h2 {
+  font-size: 0.40rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.mahi_user_css h3 {
+  font-size: 0.35rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.mahi_user_css p {
+  font-size: 0.3rem;
+  margin-top: 0.1rem;
+  margin-bottom: .2rem;
+  line-height: 0.48rem;
+}
+
+.mahi_user_css ul {
+  padding-left: 0.4rem;
+}
+
+.mahi_user_css li {
+  font-size: 0.3rem;
+  list-style: decimal;
+  margin-top: 0.2rem;
+  margin-bottom: -0.2rem;
+  padding-left: 0.05rem;
+  padding-right: 0.3rem;
+}
+
+.mahi_user_css .devider {
+  width: 100%;
+  border-bottom: 1px solid #606280;
+}
+
+.mahi_user_css a {
+  color: red;
+}
+
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 700;
+}
+
+.recomended h2 {
+  color: #fff;
+  background-color: #d10000;
+  font-size: .35rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: .15rem;
+  margin-right: .15rem;
+  margin-left: .15rem;
+  border-radius: .1rem;
+  border: 2px solid #000;
+}
+blockquote { 
+  margin: .12rem;
+  display: block;
+  background-color: rgba(112, 112, 112, 0.133);
+
+}
+blockquote h2 {
+  margin: .1rem 0 .1rem 0;
+  font-size: .35rem;
+  font-weight: bold;
+  line-height: .45rem;
+  padding: .1rem .1rem .1rem .1rem;
+  border-left: #009688 .04rem solid;
+  border-right: #009688 .04rem solid;
+  color: #3F51B5;
+  text-transform: capitalize;
+}
+blockquote p {
+  font-size: .30rem;
+  line-height: .42rem;
+  padding: .1rem .1rem .1rem .1rem;
+  text-transform: capitalize;
+}
+
+.blockquote-download img{
+width: 60%;
+margin-left: 20%;
+}
+.blockquote-logo img{
+width: 30%;
+margin-left: 35%;
+}
+
+.mahi_item li {
+  counter-increment: item;
+  line-height: .42rem; 
+  font-size: .30rem;
+  margin-left: .4rem;
+}
+.mahi_item li:before {
+  content: counter(item) ". ";
+  padding: .02rem;
+}
